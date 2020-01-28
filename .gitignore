@@ -25,6 +25,7 @@ _UpgradeReport_Files/
 ###############
 bin/
 obj/
+CryptoTesting/
 TestResults/
 ###################
 # Web publish log #
