@@ -8,5 +8,9 @@ namespace Crypto
 {
     class RSA
     {
+        public RSA()
+        {
+
+        }
     }
 }
