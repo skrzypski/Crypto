@@ -2,9 +2,9 @@
 
 namespace Crypto
 {
-    static class MD5
+    public static class MD5
     {
-        static string Generate(string input)
+        public static string Generate(string input)
         {
             using (System.Security.Cryptography.MD5 md5 = System.Security.Cryptography.MD5.Create())
             {
