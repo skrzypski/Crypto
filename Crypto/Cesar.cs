@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Crypto
 {
-    class Cesar
+    public class Cesar
     {
         public int shift { get; private set; }
 
