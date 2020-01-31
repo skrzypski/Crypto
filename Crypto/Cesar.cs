@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace Crypto
 {
@@ -30,13 +26,13 @@ namespace Crypto
         public string Decode(string text)
         {
             char[] arr = text.ToCharArray();
-            List<char> encoded = new List<char>();
+            List<char> decoded = new List<char>();
             foreach (char ch in arr)
             {
                 char tmp = (char)((int)(ch) - shift);
-                encoded.Add(tmp);
+                decoded.Add(tmp);
             }
-            return new string(encoded.ToArray());
+            return new string(decoded.ToArray());
         }
     }
 }
